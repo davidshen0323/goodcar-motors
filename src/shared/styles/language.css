@@ -1,0 +1,49 @@
+.language-bar {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 8px 5vw;
+  min-height: 46px;
+  background: #182731;
+  color: #e5ece7;
+  border-bottom: 1px solid #ffffff22;
+  font:
+    12px/1.4 system-ui,
+    -apple-system,
+    sans-serif;
+  position: relative;
+  z-index: 100;
+}
+.language-caption {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: #a6b8b1;
+}
+.language-bar > div {
+  display: flex;
+  gap: 4px;
+}
+.language-bar button {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #c4d3cb;
+  background: transparent;
+  padding: 6px 11px;
+  font: inherit;
+  cursor: pointer;
+}
+.language-bar button[aria-pressed='true'] {
+  background: #d6f36a;
+  color: #182731;
+}
+.language-bar button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+html[lang='en'] h1,
+html[lang='en'] h2,
+html[lang='en'] h3 {
+  overflow-wrap: break-word;
+}

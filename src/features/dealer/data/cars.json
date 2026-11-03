@@ -1,0 +1,44 @@
+[
+  {
+    "id": "AS-101",
+    "name": "歐系中型房車",
+    "body": "房車",
+    "year": 2022,
+    "mileage": "24,000 km",
+    "price": 188,
+    "engine": "2.0 L",
+    "color": "銀色",
+    "feature": "都會通勤與長途旅行，兼顧舒適和俐落的駕駛感。",
+    "photo": "sedan",
+    "status": "available",
+    "mileageKm": 24000
+  },
+  {
+    "id": "AS-102",
+    "name": "歐系豪華休旅",
+    "body": "休旅",
+    "year": 2021,
+    "mileage": "31,000 km",
+    "price": 238,
+    "engine": "2.0 L",
+    "color": "深灰",
+    "feature": "寬敞的乘坐空間，適合家庭日常與週末出遊。",
+    "photo": "suv",
+    "status": "available",
+    "mileageKm": 31000
+  },
+  {
+    "id": "AS-103",
+    "name": "歐系雙門跑旅",
+    "body": "雙門",
+    "year": 2023,
+    "mileage": "16,000 km",
+    "price": 286,
+    "engine": "2.0 L",
+    "color": "白色",
+    "feature": "俐落車身比例與靈活操控感，為駕駛增添樂趣。",
+    "photo": "coupe",
+    "status": "available",
+    "mileageKm": 16000
+  }
+]
